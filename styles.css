@@ -110,7 +110,71 @@
     width: 180px;
     height: 50px;
 }
+/* curriculum section styles*/
+.main{
+    background-image: url(./assets/bg.png);
+}
+.bg{
+    text-align: center;
+}
+#bg-title{
+    margin-top: 60px;
+    margin-bottom: 80px;
+    font-weight: bold;
+    font-size: 2.9rem;
+}
+.section-2{
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+    gap: 25px;
+    margin-bottom: 80px;
+}
+.bg-box-1{
+    background-color: #DEF5FF;
+    box-shadow: 0 0 28px 0.94px rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+    text-align: center;
+    height: 350px;
+    padding: 10px;
 
+}
+.bg-box-2{
+    background-color: #FFF4DC;
+    box-shadow: 0 0 28px 0.94px rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+    text-align: center;
+    height: 350px;
+    padding: 10px;
+}
+.bg-box-3{
+    background-color: #F2E8FF;
+    box-shadow: 0 0 28px 0.94px rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+    text-align: center;
+    height: 350px;
+    padding: 10px;
+}
+.bg-link-1, .bg-link-2, .bg-link-3{
+    text-decoration: none;
+}
+.box-title{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.box-bg-sub-title{
+    font-weight: 500px;
+    font-size: 1rem;
+}
+.bg-link-1{
+    color: rgba(100, 200, 255, 1);
+}
+.bg-link-2{
+    color: rgba(240, 170, 0, 1);
+}
+.bg-link-3{
+    color: rgba(135, 0, 255, 1);
+}
 /* responsive styles */
 @media screen and (max-width:576px) {
     .nav-menu{
@@ -153,5 +217,14 @@
     }
     .btn-2{
         margin-left: 113px;
+    }
+    .bg{
+        margin-top: 300px;
+        margin-left: 20px;
+        margin-bottom: -30px;
+    }
+    .section-2{
+        flex-wrap: wrap;
+        width: 90%;
     }
 }
