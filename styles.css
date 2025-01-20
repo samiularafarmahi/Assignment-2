@@ -6,32 +6,39 @@
     font-weight: 400;
     font-style: normal;
 } */
-.navbar{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+/* Navbar section styles */
+.navbar {
     gap: 100px;
     align-items: center;
-    width: 1200px;
+    width: 1100px;
     margin: 0 auto;
-    
+
 }
-.nav-heading{
+
+.display {
     display: flex;
 }
-.logo{
+
+.logo {
     height: 50px;
     width: 50px;
     margin-top: 15px;
 }
-.nav-title{
+
+.nav-title {
     font-weight: bold;
     font-size: 32px;
     color: #111111;
 }
-.link-1 , .link-2, .link-3, .link-4 {
+
+.link-1,
+.link-2,
+.link-3,
+.link-4 {
     text-decoration: none;
 }
-.link{
+
+.link {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
@@ -39,19 +46,24 @@
     font-weight: bold;
     font-size: 20px;
 }
-.link-1{
+
+.link-1 {
     color: orange;
 }
-.link-2{
+
+.link-2 {
     color: #01ACFD;
 }
-.link-3{
+
+.link-3 {
     color: #05D4DF;
 }
-.link-4{
+
+.link-4 {
     color: #5D58EF;
 }
-.btn{
+
+.btn {
     padding: 10px;
     width: 180px;
     border-radius: 12px;
@@ -61,4 +73,68 @@
     height: 50px;
     font-weight: 600px;
     font-size: 20px;
+}
+
+.nav-menu {
+    position: relative;
+    bottom: 100px;
+}
+
+/* Banner section styles */
+.banner {
+    margin: 0 auto;
+    width: 1100px;
+    height: 550px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 56px;
+}
+
+.banner-sub-title {
+    font-size: 20px;
+    color: #111111;
+}
+
+.btn-2 {
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 180px;
+    height: 50px;
+}
+
+/* responsive styles */
+@media screen and (max-width:576px) {
+    .nav-menu{
+        position: relative;
+        right: -35px;
+        top: 15px;
+        left: 200px;
+    }
+    .nav-title{
+        display: none;
+    }
+    .link-1{
+        position: relative;
+        left: 200px;
+    }
+    .navbar{
+        border-bottom: 1px solid yellow;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        margin-top: 300px;
+    }
+    .img{
+        position: relative;
+        left: -1000px;
+    }
 }
