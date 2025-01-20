@@ -128,13 +128,30 @@
     }
     .navbar{
         border-bottom: 1px solid yellow;
+        padding-bottom: 10px;
     }
     .banner{
         flex-direction: column-reverse;
-        margin-top: 300px;
+        justify-content: start;
     }
-    .img{
-        position: relative;
-        left: -1000px;
+    .img-2{
+        margin-right: 650px;
+        width: 36%;
+        margin-bottom: 20px;
+    }
+    .banner-title{
+        font-size: 2rem;
+        text-align: center;
+        margin-right: 700px;
+        margin-bottom: 18px;
+
+    }
+    .banner-sub-title{
+        margin-right: 700px;
+        text-align: center;
+        margin-bottom: 18px;
+    }
+    .btn-2{
+        margin-left: 113px;
     }
 }
