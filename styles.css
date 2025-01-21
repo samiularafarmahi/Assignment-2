@@ -175,6 +175,29 @@
 .bg-link-3{
     color: rgba(135, 0, 255, 1);
 }
+/* icon styles */
+.icon{
+    font-size: 50px;
+    text-align: center;
+    
+}
+/* story section styles */
+.story{
+    text-align: center;
+    width: 1100px;
+    margin: 0 auto;
+}
+    .card-box{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 20px;
+    }
+    .card-box-2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
 /* responsive styles */
 @media screen and (max-width:576px) {
     .nav-menu{
@@ -226,5 +249,8 @@
     .section-2{
         flex-wrap: wrap;
         width: 90%;
+    }
+    .icon{
+        display: none;
     }
 }
