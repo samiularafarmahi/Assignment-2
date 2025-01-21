@@ -1,12 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
-.work-sans-font {
-    font-family: "Work Sans", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-} */
-/* Navbar section styles */
 .navbar {
     gap: 100px;
     align-items: center;
@@ -110,27 +101,32 @@
     width: 180px;
     height: 50px;
 }
+
 /* curriculum section styles*/
-.main{
+.main {
     background-image: url(./assets/bg.png);
 }
-.bg{
+
+.bg {
     text-align: center;
 }
-#bg-title{
+
+#bg-title {
     margin-top: 60px;
     margin-bottom: 80px;
     font-weight: bold;
     font-size: 2.9rem;
 }
-.section-2{
+
+.section-2 {
     display: flex;
     width: 1100px;
     margin: 0 auto;
     gap: 25px;
     margin-bottom: 80px;
 }
-.bg-box-1{
+
+.bg-box-1 {
     background-color: #DEF5FF;
     box-shadow: 0 0 28px 0.94px rgba(0, 0, 0, 0.05);
     border-radius: 18px;
@@ -139,7 +135,8 @@
     padding: 10px;
 
 }
-.bg-box-2{
+
+.bg-box-2 {
     background-color: #FFF4DC;
     box-shadow: 0 0 28px 0.94px rgba(0, 0, 0, 0.05);
     border-radius: 18px;
@@ -147,7 +144,8 @@
     height: 350px;
     padding: 10px;
 }
-.bg-box-3{
+
+.bg-box-3 {
     background-color: #F2E8FF;
     box-shadow: 0 0 28px 0.94px rgba(0, 0, 0, 0.05);
     border-radius: 18px;
@@ -155,102 +153,218 @@
     height: 350px;
     padding: 10px;
 }
-.bg-link-1, .bg-link-2, .bg-link-3{
+
+.bg-link-1,
+.bg-link-2,
+.bg-link-3 {
     text-decoration: none;
 }
-.box-title{
+
+.box-title {
     font-weight: bold;
     font-size: 1.2rem;
 }
-.box-bg-sub-title{
+
+.box-bg-sub-title {
     font-weight: 500px;
     font-size: 1rem;
 }
-.bg-link-1{
+
+.bg-link-1 {
     color: rgba(100, 200, 255, 1);
 }
-.bg-link-2{
+
+.bg-link-2 {
     color: rgba(240, 170, 0, 1);
 }
-.bg-link-3{
+
+.bg-link-3 {
     color: rgba(135, 0, 255, 1);
 }
+
 /* icon styles */
-.icon{
+.icon {
     font-size: 50px;
     text-align: center;
-    
+
 }
+
 /* story section styles */
-.story{
+.story {
     text-align: center;
-    width: 1100px;
+    width: 1200px;
     margin: 0 auto;
+    border-radius: 16px;
+    margin-top: 60px;
+    height: 900px;
 }
-    .card-box{
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        gap: 20px;
-    }
-    .card-box-2{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
-    }
+
+.story-heading {
+    font-weight: bold;
+    font-size: 2.9rem;
+    padding-top: 20px;
+}
+
+#number {
+    background-image: linear-gradient(#FFFFFF, rgb(229, 197, 143));
+}
+
+.card-box {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.card-box-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 16px;
+}
+
+.card-1 {
+    height: 630px;
+    background: white;
+    margin-left: 10px;
+    border-radius: 16px;
+}
+
+
+.card-title-1 {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: start;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.card-sub-title-1 {
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: start;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.card-2 {
+    background-color: white;
+    border-radius: 16px;
+}
+
+.card-3 {
+    background-color: white;
+    border-radius: 16px;
+}
+
+.card-4 {
+    background-color: white;
+    border-radius: 16px;
+}
+
+.card-5 {
+    background-color: white;
+    border-radius: 16px;
+}
+
+.btn-story {
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 190px;
+    padding: 10px;
+    border-radius: 12px;
+    margin-top: 80px;
+    border: none;
+}
+
+.card-btn-1 {
+    background-color: rgba(60, 216, 232, 1);
+    color: white;
+    border: none;
+}
+
 
 /* responsive styles */
 @media screen and (max-width:576px) {
-    .nav-menu{
+    .nav-menu {
         position: relative;
         right: -35px;
         top: 15px;
         left: 200px;
     }
-    .nav-title{
+
+    .link {
+        position: relative;
+        bottom: 100px;
         display: none;
     }
-    .link-1{
+
+    .btn {
+        display: none;
+    }
+
+    .nav-title {
+        display: none;
+    }
+
+    .link-1 {
         position: relative;
         left: 200px;
     }
-    .navbar{
+
+    .navbar {
         border-bottom: 1px solid yellow;
         padding-bottom: 10px;
+        max-width: 390px;
     }
-    .banner{
-        flex-direction: column-reverse;
-        justify-content: start;
-    }
-    .img-2{
-        margin-right: 650px;
-        width: 36%;
-        margin-bottom: 20px;
-    }
-    .banner-title{
-        font-size: 2rem;
-        text-align: center;
-        margin-right: 700px;
-        margin-bottom: 18px;
 
+    .banner {
+        flex-direction: column-reverse;
+        justify-content: center;
+        max-width: 390px;
+        margin-top: 150px;
     }
-    .banner-sub-title{
-        margin-right: 700px;
+
+    .img-2 {
+        width: 336px;
+        margin-top: 150px
+    }
+
+    .box-1 {
         text-align: center;
-        margin-bottom: 18px;
     }
-    .btn-2{
-        margin-left: 113px;
-    }
-    .bg{
+
+    .bg {
         margin-top: 300px;
         margin-left: 20px;
         margin-bottom: -30px;
     }
-    .section-2{
+
+    .section-2 {
         flex-wrap: wrap;
         width: 90%;
     }
-    .icon{
+
+    .icon,
+    .card-1 {
         display: none;
+    }
+
+    .card-box-2 {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        position: relative;
+        left: 10px;
+    }
+
+    .story {
+        max-width: 390px;
+    }
+
+    .card-2,
+    img {
+        width: 173px;
     }
 }
