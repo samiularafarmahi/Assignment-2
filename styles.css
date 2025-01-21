@@ -194,9 +194,9 @@
     text-align: center;
     width: 1200px;
     margin: 0 auto;
-    border-radius: 16px;
     margin-top: 60px;
     height: 900px;
+    border-radius: 16px;
 }
 
 .story-heading {
@@ -206,7 +206,7 @@
 }
 
 #number {
-    background-image: linear-gradient(#FFFFFF, rgb(229, 197, 143));
+    background-image: linear-gradient(#FFFFFF, rgb(190, 171, 134));
 }
 
 .card-box {
@@ -283,6 +283,39 @@
     background-color: rgba(60, 216, 232, 1);
     color: white;
     border: none;
+}
+/* footer section styles */
+.footer-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    background-color: rgba(1, 172, 253, 1);
+    width: 900px;
+    margin: 0 auto;
+    padding: 150px;
+    border-radius: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+.title{
+    font-weight: bold;
+}
+.footer-sub-title{
+    font-size: 20px;
+}
+.div-2{
+    display: flex;
+    flex-direction: column;
+
+}
+.div-title{
+    font-weight: bold;
+    font-size: 25px;
+}
+.site{
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    text-align: start;
+    margin-left: 80px;
 }
 
 
